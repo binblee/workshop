@@ -104,7 +104,7 @@ In ACK console, click menu `clusters => cluster name "More" => Deploy Istio`, yo
 
 
 
-###Enable external-dns feature of cluster2
+### Enable external-dns feature of cluster2
 
 By default, ACK clusters does not have external-dns installed. You have to do it manually. 
 
