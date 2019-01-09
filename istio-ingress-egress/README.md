@@ -237,10 +237,13 @@ $ kubectl exec -n istio-app -ti tomcat-7666b9764-pcjfk bash
 
 
 
-Within tomcat, run curl to access httpbin service:
+Within tomcat, run curl to access httpbin service and result should be something like below:
 
 ```
-
+$ curl -I http://httpbin.cluster2.sg.private/status/200
+HTTP/1.1 200 OK
+server: envoy
+...
 ```
 
 
