@@ -106,11 +106,7 @@ In ACK console, click menu `clusters => cluster name "More" => Deploy Istio`, yo
 
 ### Enable external-dns feature of cluster2
 
-By default, ACK clusters does not have external-dns installed. You have to do it manually. 
-
-
-
-You will only need to install external-dns in cluster2, which means service/ingress ip address can be updated automatically in private dns.
+By default, ACK clusters do not have external-dns installed. You have to do it manually. You will need to install external-dns in cluster2, which means service/ingress ip address can be updated automatically in private dns.
 
 
 
