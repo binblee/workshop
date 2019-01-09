@@ -3,7 +3,7 @@ kind: Service
 metadata:
   annotations:
     service.beta.kubernetes.io/alicloud-loadbalancer-address-type: intranet
-    external-dns.alpha.kubernetes.io/hostname: "*.ingress2-sg.sg.private."
+    external-dns.alpha.kubernetes.io/hostname: "*.cluster2.sg.private."
   labels:
     app: istio-ingressgateway
     chart: gateways-1.0.5

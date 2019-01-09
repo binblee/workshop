@@ -5,7 +5,7 @@ metadata:
   namespace: istio-app
 spec:
   hosts:
-  - "httpbin.ingress2-sg.sg.private"
+  - "httpbin.cluster2.sg.private"
   gateways:
   - httpbin-gateway
   http:
